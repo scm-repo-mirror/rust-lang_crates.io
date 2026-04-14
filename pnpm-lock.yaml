@@ -124,8 +124,8 @@ importers:
         specifier: 1.59.1
         version: 1.59.1
       '@sinonjs/fake-timers':
-        specifier: 15.3.0
-        version: 15.3.0
+        specifier: 15.3.2
+        version: 15.3.2
       '@types/node':
         specifier: 24.12.2
         version: 24.12.2
@@ -176,7 +176,7 @@ importers:
         version: 2.1.0
       ember-cli-notifications:
         specifier: 9.1.0
-        version: 9.1.0(patch_hash=8937c93a1727c1acfcd6131f4aa7bd7748c8ce7fa8aa9508e84a99ab3e281c90)(@babel/core@7.29.0)(ember-source@6.12.0(@glimmer/component@2.0.0)(rsvp@4.8.5))
+        version: 9.1.0(patch_hash=8937c93a1727c1acfcd6131f4aa7bd7748c8ce7fa8aa9508e84a99ab3e281c90)(@babel/core@7.29.0)(ember-source@6.12.0(@glimmer/component@2.1.1)(rsvp@4.8.5))
       ember-click-outside:
         specifier: 6.1.1
         version: 6.1.1(@babel/core@7.29.0)
@@ -2627,8 +2627,8 @@ packages:
   '@sinonjs/commons@3.0.1':
     resolution: {integrity: sha512-K3mCHKQ9sVh8o1C9cxkwxaOmXoAMlDxC1mYyHrjqOWEcBjYr76t96zL2zlj5dUGZ3HSw240X1qgH3Mjf1yJWpQ==}
 
-  '@sinonjs/fake-timers@15.3.0':
-    resolution: {integrity: sha512-m2xozxSfCIxjDdvbhIWazlP2i2aha/iUmbl94alpsIbd3iLTfeXgfBVbwyWogB6l++istyGZqamgA/EcqYf+Bg==}
+  '@sinonjs/fake-timers@15.3.2':
+    resolution: {integrity: sha512-mrn35Jl2pCpns+mE3HaZa1yPN5EYCRgiMI+135COjr2hr8Cls9DXqIZ57vZe2cz7y2XVSq92tcs6kGQcT1J8Rw==}
 
   '@socket.io/component-emitter@3.1.2':
     resolution: {integrity: sha512-9BCxFwvbGg/RsZK9tjXd8s4UcwR0MWeFQ1XEKIQVVvAGJyINdrqKMcTRyLoK8Rse1GjzLV9cwjWV1olXRWEXVA==}
@@ -12813,7 +12813,7 @@ snapshots:
     dependencies:
       type-detect: 4.0.8
 
-  '@sinonjs/fake-timers@15.3.0':
+  '@sinonjs/fake-timers@15.3.2':
     dependencies:
       '@sinonjs/commons': 3.0.1
 
@@ -15825,7 +15825,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ember-cli-notifications@9.1.0(patch_hash=8937c93a1727c1acfcd6131f4aa7bd7748c8ce7fa8aa9508e84a99ab3e281c90)(@babel/core@7.29.0)(ember-source@6.12.0(@glimmer/component@2.0.0)(rsvp@4.8.5)):
+  ember-cli-notifications@9.1.0(patch_hash=8937c93a1727c1acfcd6131f4aa7bd7748c8ce7fa8aa9508e84a99ab3e281c90)(@babel/core@7.29.0)(ember-source@6.12.0(@glimmer/component@2.1.1)(rsvp@4.8.5)):
     dependencies:
       '@embroider/addon-shim': 1.10.2
       decorator-transforms: 2.3.1(@babel/core@7.29.0)
